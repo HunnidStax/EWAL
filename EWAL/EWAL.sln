@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletAgent", "WalletAgent.csproj", "{EA1AF198-07A4-44A2-8ABE-1ADD8EA4AC2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet", "Wallet\Wallet.csproj", "{07601271-2F54-4C84-9321-72F52FB82D97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletManager", "..\WalletManager\WalletManager.csproj", "{1F0F0455-0E27-4B56-B3C3-A94DCE86E395}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegAndAuth", "RegAndAuth\RegAndAuth.csproj", "{29C01C12-6454-4F1E-A94E-9048B64E8CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationAgent", "..\NotificationAgent\NotificationAgent.csproj", "{E7832407-3AC8-4048-97AF-BAA9A4F3D409}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordManager", "RecordManager\RecordManager.csproj", "{8ACF461C-7AB5-4E33-9A90-8CB296208772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA1AF198-07A4-44A2-8ABE-1ADD8EA4AC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA1AF198-07A4-44A2-8ABE-1ADD8EA4AC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA1AF198-07A4-44A2-8ABE-1ADD8EA4AC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA1AF198-07A4-44A2-8ABE-1ADD8EA4AC2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F0F0455-0E27-4B56-B3C3-A94DCE86E395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F0F0455-0E27-4B56-B3C3-A94DCE86E395}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F0F0455-0E27-4B56-B3C3-A94DCE86E395}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F0F0455-0E27-4B56-B3C3-A94DCE86E395}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E7832407-3AC8-4048-97AF-BAA9A4F3D409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7832407-3AC8-4048-97AF-BAA9A4F3D409}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7832407-3AC8-4048-97AF-BAA9A4F3D409}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7832407-3AC8-4048-97AF-BAA9A4F3D409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07601271-2F54-4C84-9321-72F52FB82D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07601271-2F54-4C84-9321-72F52FB82D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07601271-2F54-4C84-9321-72F52FB82D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07601271-2F54-4C84-9321-72F52FB82D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C01C12-6454-4F1E-A94E-9048B64E8CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C01C12-6454-4F1E-A94E-9048B64E8CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C01C12-6454-4F1E-A94E-9048B64E8CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C01C12-6454-4F1E-A94E-9048B64E8CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ACF461C-7AB5-4E33-9A90-8CB296208772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACF461C-7AB5-4E33-9A90-8CB296208772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACF461C-7AB5-4E33-9A90-8CB296208772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACF461C-7AB5-4E33-9A90-8CB296208772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
